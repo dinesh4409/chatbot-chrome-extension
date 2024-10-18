@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini Chatbot Extension",
+    "version": "1.0",
+    "description": "A Chrome extension chatbot using the Gemini API.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
